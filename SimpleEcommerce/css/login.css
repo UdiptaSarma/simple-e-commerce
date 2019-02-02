@@ -1,0 +1,47 @@
+*{
+   
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+body{
+    background-color: #f9f86e;
+}
+fieldset{
+    background-color: #fedfa4;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+.felem{
+    width: 50%;
+    display: block;
+    margin: auto;
+    overflow:auto;
+    height: auto;
+}
+.felem label{
+    text-align: right;
+    float:left;
+    width: 45%;
+}
+.felem input{
+    width:50%;
+    float: right;
+}
+fieldset p{
+    display: block;
+    text-align: center;
+    
+}
+.submit{
+    overflow: auto;
+}
+.submit input{
+    float: right;
+}

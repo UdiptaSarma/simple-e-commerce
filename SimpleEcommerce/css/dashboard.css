@@ -1,0 +1,42 @@
+*{
+    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.elem img{
+    width: 80%;
+    margin: auto;
+    height: 200px;
+    display: block;
+}
+.elem input{
+    display: block;
+    width: 50%;
+    margin: auto;
+    background-color: aquamarine;
+    padding: 5px;
+}
+.elem{
+    border: solid 1px black;
+    display: inline-block;
+    width: 25%;
+    float: right;
+}
+nav{
+    background-color: #ddd;
+    border: solid 1px black;
+    overflow: auto;
+    height: 50px;
+}
+nav a{
+    border: solid 1px black;
+    text-decoration: none;
+    float: right;
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    line-height: 45px;
+} 
+
+    

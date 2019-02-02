@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #ddd;
+    border: solid 1px black;
+    overflow: auto;
+    height: 50px;
+}
+nav a{
+    border: solid 1px black;
+    text-decoration: none;
+    float: left;
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    line-height: 45px;
+} 
+.item{
+    padding: 10px;
+    background-color: yellow;
+    margin: 10px;
+}
+.item p{
+    display: inline;
+}
+.item button{
+    display: inline;
+    float: right;
+    width: 25%;
+    background-color: red;
+    color: white;
+}
+.checkout{
+    border-radius: 5px;
+    width: 80px;
+    height: 20px;
+    position: relative;
+    float: right;
+}
